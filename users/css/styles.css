@@ -1,0 +1,40 @@
+body {
+    max-width: 1440px;
+}
+.main {
+    display: block;
+    margin: 60px auto;
+    max-width: 500px;
+    max-height: 800px;
+    -moz-box-shadow: 0px 10px 10px 10px rgb(220,220,220);
+    box-shadow: 0px 5px 5px 5px rgb(220,220,220);    
+    border-radius: 5px;  
+}
+.main-inner {
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 32px;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.main-inner_wrap {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 280px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+input[name="do_post"] {
+    width: 300px;
+    height: 40px;
+    background-color: #1E90FF;
+    border: none;
+}
