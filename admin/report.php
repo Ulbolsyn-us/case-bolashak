@@ -6,7 +6,7 @@
         
     }
 
-    $result = mysqli_query($connection, "SELECT * FROM `users`");
+    $result = mysqli_query($connection, "SELECT `id`,`iin`,`goal`, `date`, `time`, `operation` FROM `users`");
 
     $pdf = new PDF();
     $pdf->AliasNbPAges();
